@@ -16,41 +16,39 @@
         </div>
     </nav>
 
-    <main style="background:#ddffdd; min-height: calc(100vh - 56px);">
+    <main style="background:#ddffdd; min-height: calc(100vh - 56px - 56px);">
         <div class="py-4">
             <section>
                 <div class="container main">
                     <div class="border rounded shadow p-5" style="background: white;">
                         <h2 class="font-weight-bold mb-5">
-                            Team Bookmarks
+                            GeoMemory
                         </h2>
                         <p class="lead text-left">
-                            開発時のブックマークURLを容易にするための共有用webアプリです。<br>
-                            チームごと、担当領域ごとにブックマークを共有でき、コメントすることもできます。<br>
-                            フロントにNuxt.js、バック（URL解析API）にGin、DBにFirestore、認証にFirebase Authentication、インフラにDocker、GitHub、AWS lambdaを用いました。
+                            ユーザーの現在地から一定範囲に存在する投稿しか閲覧できない制限により、「その場所」でのみ得られる体験を作る目的のwebアプリです。<br>
+                            フロントエンドにはReact、バックエンドにはSpring Boot(Java)、データベースにはPostgreSQLを用いました。    
                         </p>
                         <p>
-                            <br>
-                            <a href="https://supporters2022-vol8.web.app/">
+                            <!-- <a href="">
                                 <span class="font-weight-bold">ホームページへ</span>
-                            </a>
+                            </a> -->
                             <br>
-                            <a href="https://github.com/ryu-k67/TeamBookmarks">
-                                <span class="font-weight-bold">GitHubへ</span>
+                            <a href="https://github.com/ryu-k67/GeoMemory_backend">
+                                <span class="font-weight-bold">GitHub(backend開発用リポジトリ)へ</span>
                             </a>
                         </p>
-                        <div class="embed-responsive embed-responsive-16by9">
-                            <video class="embed-responsive-item" src="../video/TeamBookmarks.mp4" controls>
-                                <p>video</p> <!-- videoタグ非対応時の表示メッセージ -->
+                        <!-- <div class="embed-responsive embed-responsive-16by9">
+                            <video class="embed-responsive-item" src="" controls>
+                                <p>video</p>
                             </video>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </section>
         </div>
     </main>
 
-
+    
     <footer class="py-4 bg-success shadow text-light">
         <div class="container text-center">
             <p><small>Copyright &copy;2024 ryu, All Rights Reserved.</small></p>
