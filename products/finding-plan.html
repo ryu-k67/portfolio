@@ -16,26 +16,34 @@
         </div>
     </nav>
 
-    <main style="background:#ddffdd">
+    <main style="background:#ddffdd; min-height: calc(100vh - 56px - 56px);">
         <div class="py-4">
             <section>
                 <div class="container main">
                     <div class="border rounded shadow p-5" style="background: white;">
-                        <h2 class=" mb-5">
-                            <a href="https://findingplan.web.app/">
-                                <span class="font-weight-bold">Finding Plan</span>
-                            </a>
+                        <h2 class="font-weight-bold mb-5">
+                            Finding Plan
                         </h2>
+                        <p class="lead text-left">
+                            チームのスケジュール調整用webアプリです。<br>
+                            ドラッグ入力や週間テンプレート作成などにより、入力の簡易化を目指しました。<br>
+                            フロントエンドにJavaScript(jQuery)+HTML+CSS、認証にFirebase Authentication、DBにFirebase Firestore、他にGitHubを用いました。
+                        </p>
                         <p>
+                            <br>
                             <a href="https://findingplan.web.app/">
                                 <span class="font-weight-bold">ホームページへ</span>
                             </a>
+                            <br>
+                            <a href="https://github.com/ryu-k67/FindingPlan">
+                                <span class="font-weight-bold">GitHubへ</span>
+                            </a>
                         </p>
-                        <div class="embed-responsive embed-responsive-16by9">
+                        <!-- <div class="embed-responsive embed-responsive-16by9">
                             <video class="embed-responsive-item" src="" controls>
-                                <p>video</p> <!-- videoタグ非対応時の表示メッセージ -->
+                                <p>video</p>
                             </video>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </section>
@@ -45,7 +53,7 @@
     
     <footer class="py-4 bg-success shadow text-light">
         <div class="container text-center">
-            <p><small>Copyright &copy;2022 ryu, All Rights Reserved.</small></p>
+            <p><small>Copyright &copy;2024 ryu, All Rights Reserved.</small></p>
         </div>
     </footer>
 
